@@ -1,0 +1,27 @@
+.center {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.msg-group {
+    position: absolute;
+    max-width: 720px;
+    height: 70%;
+    overflow-y: auto;
+}
+
+.card {
+    padding: 10px 0 10px 0;
+}
+
+.input-group {
+    position: fixed;
+    height: 8%;
+    bottom: 0;
+}
+
+.btn {
+    height:100%;
+}
