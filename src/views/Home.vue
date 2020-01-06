@@ -2,7 +2,7 @@
   <div class="home">
 
     <div id="response">
-      Afafafaf
+      <p>Text response.</P>
     </div>
 
   </div>

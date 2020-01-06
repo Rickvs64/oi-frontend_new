@@ -1,9 +1,16 @@
 .home {
-    background-color: red;
+    background-color: red;  /* temp */
     width: 100%;
     height: 100%;
 }
 
 #response {
     color: black;
+    background-color: green;    /* temp */
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
