@@ -1,7 +1,9 @@
 <template>
   <div class="home">
 
-    fafafa
+    <div id="response">
+      Afafafaf
+    </div>
 
   </div>
 </template>
