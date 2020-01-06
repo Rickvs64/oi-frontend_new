@@ -5,7 +5,6 @@
 }
 
 #response {
-    color: black;
     background-color: green;    /* temp */
     position: absolute;
     width: 90%;
@@ -13,4 +12,14 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+#response p {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    background-color: yellow;   /* temp */
 }
