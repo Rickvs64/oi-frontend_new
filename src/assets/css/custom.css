@@ -1,17 +1,16 @@
 .home {
-    background-color: red;  /* temp */
     width: 100%;
     height: 100%;
 }
 
 #response {
-    background-color: green;    /* temp */
     position: absolute;
     width: 90%;
     height: 80%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    font-size: 4em;
 }
 
 #response p {
@@ -20,8 +19,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4em;
-    background-color: yellow;   /* temp */
 }
 
 #inputcontainer {

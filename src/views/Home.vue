@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
+  <div class="home" id="home">
 
     <div id="response">
-      <p id="responseParagraph">Large block of text that's supposed to be multi-line.</P>
+      <p id="responseParagraph">(Chatbot output)</P>
     </div>
 
   </div>
@@ -61,6 +61,8 @@ export default {
     },
     showNewMessage(messageObject) {
       document.getElementById("responseParagraph").innerHTML = messageObject.content;
+      document.getElementById("home").style.background = messageObject.suggestedColor;
+      document.getElementById("responseParagraph").style.fontSize = messageObject.fontSize + "em";
     }
   }
 }
