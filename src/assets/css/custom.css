@@ -4,7 +4,7 @@
 }
 
 #response {
-    position: absolute;
+    position: fixed;
     width: 90%;
     height: 80%;
     left: 50%;
@@ -20,6 +20,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#processwidget {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+
 
 #inputcontainer {
     color: black;

@@ -11,6 +11,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import router from './router'
 
 require('./assets/css/custom.css')
+require('./assets/css/spinner.css')
 
 Vue.use(BootstrapVue)
 Vue.use(Router)
